@@ -1,0 +1,133 @@
+.admin-tab {
+    background: white;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
+    overflow: hidden;
+    border-bottom: 1px solid blue;
+}
+
+.admin-tab ul {
+    list-style-type: none;
+}
+
+.admin-tab li {
+    float: left;
+    margin: 0 10px;
+}
+
+.admin-tab li a {
+    line-height: 50px;
+    padding: 0 10px;
+    color: red;
+    font-weight: 600;
+    display: block;
+}
+
+.admin-tab li.active a {
+    box-shadow: 0 2px 0 0 inset green;
+}
+
+.add-new {
+    margin: 0px 10px 20px 20px;
+}
+
+
+/* sortable start*/
+
+.ui-sortable-placeholder {
+    visibility: visible !important;
+    background: #a1f3318f !important;
+}
+
+form ul .ui-sortable-helper {
+    background: white !important;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0.2, 0.6);
+}
+
+.menu .handle {
+    width: 25px;
+    height: 25px;
+    background: #90cee4;
+    color: #180c19;
+    cursor: move;
+}
+
+
+/* sortable finish*/
+
+.pagination2 {
+    text-align: center;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+.pagination2 ul {
+    display: inline-block;
+    list-style-type: none
+}
+
+.pagination2 ul li {
+    float: left;
+    margin: 0 5px;
+}
+
+.pagination2 ul li.active a {
+    background-color: #32373c;
+    color: #fff;
+}
+
+.pagination2 ul li a {
+    display: block;
+    padding: 0 15px;
+    line-height: 35px;
+    border-radius: 2px;
+    background: #eee;
+    background: rgba(0, 0, 0, 0.05);
+    font-weight: 400;
+    color: #222;
+}
+
+.smtp {
+    list-style-type: none
+}
+
+
+/* eger position:absolute isletmek istiyirikse onda yuxaridakina relative verki dasmasin(korlanmasin,icaze versin) */
+
+.table-sortable tr td:first-child {
+    position: relative;
+    padding-left: 20px;
+}
+
+.table-sortable tr td:first-child:before {
+    content: '';
+    width: 8px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: red;
+    cursor: move;
+}
+
+.success-msg {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: green;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+    font-weight: 300px;
+    color: white;
+    z-index: 100;
+}
+
+.success-close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: white;
+    font-size: 20px;
+}

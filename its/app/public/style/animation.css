@@ -1,0 +1,143 @@
+/*@-webkit-keyframes s2crl {
+	from {margin-top:52px;}
+    to {margin-top:0px; }
+	}*/
+
+@keyframes s2crl {
+    /* Standard syntax */
+    0% {
+        /*transform:  scale(1); */
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    30% {
+        margin-left: 70px;
+    }
+    50% {
+        /*transform:  scale(1.1);*/
+        margin-top: 130px;
+    }
+    80% {
+        margin-top: 70px;
+    }
+    100% {
+        /*transform:  scale(1);*/
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
+
+body:after {
+    /* Chrome, Safari, Opera */
+    /*    -webkit-animation-name: s2crl;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-direction: normal;
+    -webkit-animation-play-state: running;
+	-webkit-animation-fill-mode:forwards;*/
+    /* Standard syntax */
+    /*    animation-name: s2crl;
+    animation-duration: 7.8s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    transition-property: top, left;
+    animation-direction: normal;
+    animation-play-state: running;
+	animation-fill-mode:forwards;
+	animation-iteration-count: infinite;*/
+    animation: s2crl 7.8s infinite;
+}
+
+@keyframes s3crl {
+    /* Standard syntax */
+    0% {
+        /*transform:  scale(1); */
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    30% {
+        margin-left: -70px;
+    }
+    50% {
+        /*transform:  scale(1.1);*/
+        margin-top: -130px;
+    }
+    80% {
+        margin-top: -70px;
+    }
+    100% {
+        /*transform:  scale(1);*/
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
+
+body:before,
+section.contact:before {
+    /* Chrome, Safari, Opera */
+    /*    -webkit-animation-name: s2crl;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-direction: normal;
+    -webkit-animation-play-state: running;
+    -webkit-animation-fill-mode:forwards;*/
+    /* Standard syntax */
+    /*    animation-name: s2crl;
+    animation-duration: 7.8s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    transition-property: top, left;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-fill-mode:forwards;
+    animation-iteration-count: infinite;*/
+    animation: s3crl 7.8s infinite;
+}
+
+@keyframes s4crl {
+    /* Standard syntax */
+    0% {
+        /*transform:  scale(1); */
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    30% {
+        margin-left: 70px;
+    }
+    50% {
+        /*transform:  scale(1.1);*/
+        margin-top: 130px;
+    }
+    80% {
+        margin-top: 70px;
+    }
+    100% {
+        /*transform:  scale(1);*/
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
+
+section.insurance-types:before {
+    /* Chrome, Safari, Opera */
+    /*    -webkit-animation-name: s2crl;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-direction: normal;
+    -webkit-animation-play-state: running;
+    -webkit-animation-fill-mode:forwards;*/
+    /* Standard syntax */
+    /*    animation-name: s2crl;
+    animation-duration: 7.8s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    transition-property: top, left;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-fill-mode:forwards;
+    animation-iteration-count: infinite;*/
+    animation: s4crl 7.8s infinite;
+}

@@ -1,0 +1,14 @@
+{
+    "ad": "Zaur",
+    "soyad": "Aliyev",
+    "siteler": [{
+            "url": "http:zaur.php",
+            "baslik": "Zaur 1ci test"
+        },
+        {
+            "url": "http:test.php",
+            "baslik": "Zaur 2 ci test"
+        }
+    ]
+
+}

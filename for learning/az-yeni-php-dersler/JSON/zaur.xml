@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zaur><!-- root -->
+    <ad>Zaur</ad>
+    <soyad>Aliyev</soyad>
+    <siteler>
+        <site>
+            <url>http:zaur.php</url>
+            <baslik>Zaur 1ci test</baslik>
+        </site>
+        <site>
+            <url>http:test.php</url>
+            <baslik>Zaur 2 ci test</baslik>
+        </site>
+    
+    </siteler>
+</zaur>
